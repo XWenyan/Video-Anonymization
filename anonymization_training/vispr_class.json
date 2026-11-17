@@ -1,0 +1,16 @@
+{
+    "a17_color": 0,
+    "a4_gender": 1,
+    "a9_face complete": 2,
+    "a10_face partial": 3,
+    "a12_semi nudity": 4,
+    "a64_rel personal": 5,
+    "a65_rel soci": 6,
+    "a6_hair color": 7,
+    "a16_race": 8,
+    "a59_sports": 9,
+    "a1_age approx": 10,
+    "a2_weight approx":11,
+    "a73_landmark": 12,
+    "a11_tattoo": 13      
+}

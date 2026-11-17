@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and IDE
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Dataset and labels
+/datasets/
+/vispr/
+
+# Generated results under anonymization_training
+/anonymization_training/anonymized_avenue/
+/anonymization_training/defocus/
+/anonymization_training/defocus_sh/
+/anonymization_training/fa_result/
+/anonymization_training/logs/
+/anonymization_training/lowr/
+/anonymization_training/lowr25/
+/anonymization_training/lowr_sh/
+/anonymization_training/ppopps/
+/anonymization_training/ppopps_av2/
+/anonymization_training/ppopps_sh/
+/anonymization_training/ppopps_sh2/
+/anonymization_training/pretrained_models/
+/anonymization_training/saved_models/
+
+# CSV files under anonymization_training
+/anonymization_training/*.csv
+/anonymization_training/**/*.csv
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Initialization: keep Python source files only
+/initialization/**
+!/initialization/**/
+!/initialization/*.py
+!/initialization/**/*.py
+EOF
